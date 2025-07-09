@@ -28,7 +28,7 @@ twitter_username: TalB87268183
 github_username:  LITzman
 
 # Build settings
-theme: no-style-please
+remote_theme: no-style-please
 plugins:
   - jekyll-feed
 
