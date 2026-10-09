@@ -1,8 +1,11 @@
 
 ### Background
-Last week, an amazing project appeared in my feed: https://artmuseum.artfrompixels.com
+Last week, an amazing project appeared in my feed: [artmuseum.artfrompixels.com](https://artmuseum.artfrompixels.com)
+
 It shows an interactive timeline of artists, periods and styles and once you select an artist and enter his gallery something ridiculously cool happens:
+
  *You enter a virtual 3D museum of the artist's works.*
+
 Navigating the museum is intuitive and there's even an audio guide and a place to sit.
 
 The fact that it's possible to load something that feels like Triple-A video game in the browser and have it run so smooth made me genuinely happy.
@@ -12,6 +15,7 @@ I honestly don't care about none of the artists on display there.
 
 ### Modernizing The Pipeline
 I want to use the "museum" component of this project to show media from an Instagram page.
+
 This begins by having Claude decouple the museum component, and adapting the underlying data format from *context-rich* Wikipedia metadata to your *context-poor* Instagram slop:
 ```
 {
@@ -44,8 +48,11 @@ By filling `museum.config.json` with details such as "whose account to scrape", 
 
 ### The Rationale
 In September 2022 I lost my father.
+
 He was a graphic designer and has done quite a bit of web development.
+
 Besides his professional work, he was an actual artist - designer, painter, woodworker, and a photographer.
+
 His Instagram page is full of some of his best works and serves as a little memoir.
 
 For a long while I wanted to display these works on the web in an interactive format that serves his spirit and style better, and now it's finally online.
