@@ -1,6 +1,4 @@
 
-# Vibe Coding a Memoir
-
 ### Background
 Last week, an amazing project appeared in my feed: https://artmuseum.artfrompixels.com
 It shows an interactive timeline of artists, periods and styles and once you select an artist and enter his gallery something ridiculously cool happens:
